@@ -749,6 +749,16 @@ x1.start();
 x2.start();
 }
 
-
+function crnikamen(){
+    var chikibriki = confirm("Ali res želiš zapustiti igro?");
+    var href = 'https://crnikamen.github.io'
+    if(chikibriki== true){
+        window.location = href;
+    }
+    else{
+        return false;
+    }
+    
+}
 
 
