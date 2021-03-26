@@ -50,7 +50,8 @@
             var cena_pre= 5;
     
             var dico =0;
-
+//---------------------------------------------------------------onload
+time_prevoz()
 
         function izpis(){
                 
