@@ -83,6 +83,7 @@ time_prevoz()
                 document.getElementById("kolipr").innerHTML =kprez.toFixed(2);
                 document.getElementById("prvv").innerHTML =prvv.toFixed(2);
                 document.getElementById("cena_nad_truck").innerHTML =cnt.toFixed(2);
+		document.getElementById("mabank").innerHTML =vel_bank.toFixed(2);
                 document.getElementById("auto_truck").innerHTML =at;
                 kro.style.width =((krompir/skll)*100)+"%";
                 krot.innerHTML =((krompir/skll)*100).toFixed(2)+"%";
