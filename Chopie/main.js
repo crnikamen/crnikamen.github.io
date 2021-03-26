@@ -750,7 +750,7 @@ x2.start();
 }
 
 function crnikamen(){
-    var chikibriki = confirm("Ali res želiš zapustiti igro?");
+    var chikibriki = confirm("Ali res želiš zapustiti igro? Si shranil piškotke?");
     var href = 'https://crnikamen.github.io'
     if(chikibriki== true){
         window.location = href;
