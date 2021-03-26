@@ -431,6 +431,7 @@ time_prevoz()
             localStorage.setItem('tprez', tprez);
             localStorage.setItem('pot', pot);
             localStorage.setItem('cena_pre', cena_pre);
+	    localStorage.setItem('prvv', prvv);	
             alert('Shranjeno');
 
         } 
@@ -467,6 +468,7 @@ time_prevoz()
             tprez=Number(localStorage.getItem("tprez"));
             pot=Number(localStorage.getItem("pot"));
             cena_pre=Number(localStorage.getItem("cena_pre"));
+	    prvv=Number(localStorage.getItem("prvv"));	
             alert('Nalozeno');
         }    
 
