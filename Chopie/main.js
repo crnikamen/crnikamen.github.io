@@ -74,7 +74,10 @@ time_prevoz()
                 document.getElementById("skladk").innerHTML= skll;
                 document.getElementById("krocc").innerHTML= krocena.toFixed(2);
                 document.getElementById("vloga").innerHTML= dvlog.toFixed(2);
-                document.getElementById("obrest").innerHTML= (polog*0.78).toFixed(2);
+		
+                if(polog>=vel_bank){document.getElementById("obrest").innerHTML= polog.toFixed(2);}
+		else{document.getElementById("obrest").innerHTML= (polog*0.78).toFixed(2);}
+		
                 document.getElementById("ttcena").innerHTML= cenat;
                 document.getElementById("bank_cena").innerHTML= (vel_bank/10);
                 document.getElementById("prodaja").innerHTML =prod.toFixed(2);
